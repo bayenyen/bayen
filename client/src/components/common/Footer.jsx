@@ -42,17 +42,17 @@ const Footer = () => {
             color: 'gray',
           }}
         >
-          &copy; 2022 BertFlix Developed by{' '}
+          &copy; 2025 Bayen Developed by{' '}
           <a
             style={{
               textDecoration: 'none',
               color: theme.palette.primary.main
             }}
-            href="https://berthutapea.vercel.app/"
+            href="https://github.com/bayenyen"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Gilbert Hutapea
+            Bayenyen
           </a>
         </Typography>
       </Paper>
