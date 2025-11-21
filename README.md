@@ -132,11 +132,11 @@ This project was created using the following technologies.
 ![img-10](https://github.com/bayenyen/bayen/blob/master/assets/images/Screenshot%202025-11-21%20224216.png)
 
 ## Author
-- Portfolio: [berthutapea](https://berthutapea.vercel.app/)
-- Github: [berthutapea](https://github.com/berthutapea)
+- Portfolio: [bayenyen](https://bayen-cute.vercel.app/)
+- Github: [bayenyen](https://github.com/bayenyen/bayen)
 - Sponsor: [berthutapea](https://saweria.co/berthutapea)
 - Linkedin: [gilberthutapea](https://www.linkedin.com/in/gilberthutapea/)
-- Email: [berthutapea@gmail.com](mailto:berthutapea@gmail.com)
+- Email: [bayenyen](mailto:bryneborinaga16@gmail.com)
 
 ## License
 
