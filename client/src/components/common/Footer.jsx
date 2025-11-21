@@ -42,7 +42,7 @@ const Footer = () => {
             color: 'gray',
           }}
         >
-          &copy; 2025 Bayen Developed by{' '}
+          &copy; 2025 BayenTV Developed by{' '}
           <a
             style={{
               textDecoration: 'none',
