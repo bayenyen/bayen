@@ -111,25 +111,25 @@ This project was created using the following technologies.
  
  ##  Screenshots 
  
-![img-1](https://github.com/berthutapea/mern-movie/assets/111676859/1dd97e27-c9bc-4b9b-b299-470d8eecf3cf)
+![img-1](https://github.com/bayenyen/bayen/blob/master/assets/images/Screenshot%202025-11-21%20224216.png)
 ---- -
-![img-2](https://github.com/berthutapea/mern-movie/assets/111676859/6741b56c-f3ba-4c8d-ae0b-fe4c418731ca)
+![img-2](https://github.com/bayenyen/bayen/blob/master/assets/images/Screenshot%20(3).png)
 --- - 
-![img-3](https://github.com/berthutapea/mern-movie/assets/111676859/bbf20147-9b9a-4134-b890-410fae96525a)
+![img-3](https://github.com/bayenyen/bayen/blob/master/assets/images/Screenshot%20(4).png)
 --- - 
-![img-4](https://github.com/berthutapea/mern-movie/assets/111676859/36fea0f5-e4cb-4a55-9211-ea0bc5d870f3)
+![img-4](https://github.com/bayenyen/bayen/blob/master/assets/images/Screenshot%20(5).png)
 --- - 
-![img-5](https://github.com/berthutapea/mern-movie/assets/111676859/c22464fe-addf-4585-8033-19b713b2bf50)
+![img-5](https://github.com/bayenyen/bayen/blob/master/assets/images/Screenshot%20(6).png)
 --- - 
-![img-6](https://github.com/berthutapea/mern-movie/assets/111676859/462e698e-5a39-470a-b264-ccf93711c06a)
+![img-6](https://github.com/bayenyen/bayen/blob/master/assets/images/Screenshot%20(7).png)
 --- - 
-![img-7](https://github.com/berthutapea/mern-movie/assets/111676859/9b4ca1b5-6e07-47cf-a2ad-1a737577e035)
+![img-7](https://github.com/bayenyen/bayen/blob/master/assets/images/Screenshot%20(9).png)
 --- - 
-![img-8](https://github.com/berthutapea/mern-movie/assets/111676859/95bdf537-a93e-4e84-9228-12375d1a1b47)
+![img-8](http://github.com/bayenyen/bayen/blob/master/assets/images/Screenshot%20(10).png)
 --- - 
-![img-9](https://github.com/berthutapea/mern-movie/assets/111676859/57c7524b-75a3-4c9b-b90b-8b2593cabb41)
+![img-9](https://github.com/bayenyen/bayen/blob/master/assets/images/Screenshot%20(11).png)
 --- - 
-![img-10](https://github.com/berthutapea/mern-movie/assets/111676859/1532b9cb-0944-4b47-8898-7273f8ce6082)
+![img-10](https://github.com/bayenyen/bayen/blob/master/assets/images/Screenshot%202025-11-21%20224216.png)
 
 ## Author
 - Portfolio: [berthutapea](https://berthutapea.vercel.app/)
