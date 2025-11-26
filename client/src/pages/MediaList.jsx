@@ -1,5 +1,5 @@
 import { LoadingButton } from "@mui/lab";
-import { Box, Button, Stack, Typography } from "@mui/material";
+import { Box, Button, Stack } from "@mui/material";
 import { useEffect, useState, useMemo } from "react";
 import { useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
@@ -88,29 +88,65 @@ const MediaList = () => {
           justifyContent="space-between"
           sx={{ marginBottom: 4 }}
         >
-          <Typography fontWeight="700" variant="h5">
+          {/* Main title with Instagram-style Pacifico font */}
+          <h2
+            style={{
+              fontFamily: "'Pacifico', cursive",
+              fontSize: "36px",
+              fontWeight: 700,
+              background: "linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              textTransform: "uppercase",
+              letterSpacing: "1px",
+              margin: 0
+            }}
+          >
             {mediaType === tmdbConfigs.mediaType.movie ? "Movies" : "TV Series"}
-          </Typography>
+          </h2>
+
+          {/* Category buttons */}
           <Stack direction="row" spacing={2}>
             {category.map((cate, index) => (
               <Button
                 key={index}
                 size="large"
                 variant={currCategory === index ? "contained" : "text"}
-                sx={{
-                  color: currCategory === index ? "primary.contrastText" : "text.primary"
-                }}
                 onClick={() => onCategoryChange(index)}
+                sx={{
+                  padding: "6px 16px",
+                  background: "none",
+                  border: "none",
+                  textTransform: "none",
+                  cursor: "pointer"
+                }}
               >
-                {cate}
+                <span
+                  style={{
+                    fontFamily: "'Pacifico', cursive",
+                    fontWeight: 700,
+                    fontSize: "18px",
+                    background: currCategory === index
+                      ? "linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5)"
+                      : "none",
+                    WebkitBackgroundClip: currCategory === index ? "text" : "unset",
+                    WebkitTextFillColor: currCategory === index ? "transparent" : "#000",
+                    textTransform: "uppercase",
+                    letterSpacing: "1px"
+                  }}
+                >
+                  {cate}
+                </span>
               </Button>
             ))}
           </Stack>
         </Stack>
+
         <MediaGrid
           medias={medias}
           mediaType={mediaType}
         />
+
         <LoadingButton
           sx={{ marginTop: 8 }}
           fullWidth

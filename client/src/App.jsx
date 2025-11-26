@@ -16,8 +16,11 @@ import "swiper/css/pagination";
 const App = () => {
   const { themeMode } = useSelector((state) => state.themeMode);
 
+  // 🔥 Force default theme to LIGHT (no crash)
+  const currentTheme = themeMode || "light";
+
   return (
-    <ThemeProvider theme={themeConfigs.custom({ mode: themeMode })}>
+    <ThemeProvider theme={themeConfigs.custom({ mode: currentTheme })}>
       {/* config toastify */}
       <ToastContainer
         position="bottom-left"
@@ -27,8 +30,9 @@ const App = () => {
         closeOnClick
         pauseOnFocusLoss
         pauseOnHover
-        theme={themeMode}
+        theme={currentTheme}
       />
+
       {/* mui reset css */}
       <CssBaseline />
 
@@ -36,29 +40,40 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainLayout />}>
-            {routes.map((route, index) => (
+            {routes.map((route, index) =>
               route.index ? (
                 <Route
                   index
                   key={index}
-                  element={route.state ? (
-                    <PageWrapper state={route.state}>{route.element}</PageWrapper>
-                  ) : route.element}
+                  element={
+                    route.state ? (
+                      <PageWrapper state={route.state}>
+                        {route.element}
+                      </PageWrapper>
+                    ) : (
+                      route.element
+                    )
+                  }
                 />
               ) : (
                 <Route
                   path={route.path}
                   key={index}
-                  element={route.state ? (
-                    <PageWrapper state={route.state}>{route.element}</PageWrapper>
-                  ) : route.element}
+                  element={
+                    route.state ? (
+                      <PageWrapper state={route.state}>
+                        {route.element}
+                      </PageWrapper>
+                    ) : (
+                      route.element
+                    )
+                  }
                 />
               )
-            ))}
+            )}
           </Route>
         </Routes>
       </BrowserRouter>
-      {/* app routes */}
     </ThemeProvider>
   );
 };
